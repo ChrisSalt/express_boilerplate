@@ -1,0 +1,29 @@
+{
+  "name": "express_project",
+  "version": "1.0.0",
+  "description": "Project using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Salt",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.0.0-beta.2",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "css-loader": "^0.28.7",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.8.1",
+    "webpack-dev-middleware": "^1.12.0"
+  }
+}
